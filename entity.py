@@ -1,7 +1,5 @@
 class Entity:
-
-     #A generic object to represent players, enemies, items, etc.
-
+    # Uogólnienie wszystkich obiektów
     def __init__(self, x, y, char, color):
         self.x = x
         self.y = y
@@ -9,6 +7,6 @@ class Entity:
         self.color = color
 
     def move(self, dx, dy):
-        # Move the entity by a given amount
+        # Poruszanie się obiektu
         self.x += dx
         self.y += dy

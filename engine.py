@@ -1,7 +1,8 @@
-from input_handlers import handle_keys
-from entity import Entity
-from render_functions import clear_all, render_all
 import tcod as libtcod
+from entity import Entity
+from input_handlers import handle_keys
+from render_funtions import clear_all, render_all
+
 
 def main():
     screen_width = 80
